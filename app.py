@@ -7,6 +7,14 @@ from modules.notes_generator import generate_notes
 from modules.flashcard_generator import generate_flashcards
 from modules.quiz_generator import generate_quiz
 from modules.utils import save_text_file, load_json, save_json
+import spacy
+from spacy.cli import download
+
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 # ----------------------------
 # Streamlit Page Configuration

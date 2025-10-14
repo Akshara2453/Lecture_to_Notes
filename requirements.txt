@@ -4,3 +4,4 @@ openai-whisper
 transformers
 torch
 spacy
+ffmpeg-python

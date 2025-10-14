@@ -1,0 +1,7 @@
+streamlit
+moviepy
+openai-whisper
+transformers
+torch
+spacy
+en-core-web-sm

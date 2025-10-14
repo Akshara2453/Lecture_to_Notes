@@ -1,0 +1,38 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Streamlit config
+.streamlit/
+
+# Hugging Face cache
+C:/Users/aksha/.cache/huggingface/
+
+# Logs
+*.log
+
+# Downloaded media files
+*.mp4
+*.webm
+*.wav
+*.m4a
+
+# Large model files
+*.pt
+*.pth
+*.safetensors
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE settings
+.vscode/
+.idea/
+
+# Data outputs
+data/
+artifacts/
+outputs/
